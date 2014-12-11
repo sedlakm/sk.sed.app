@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="fill_parent"
+			  android:layout_height="fill_parent" >
+<ImageView android:id="@+id/list_image"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" 
+		android:focusable="false"
+		android:clickable="false" >
+</ImageView>
+
+<TextView 
+              android:layout_width="fill_parent"
+              android:layout_height="37dp"
+              android:textSize="15sp"
+              android:textColor="#000000"
+              android:gravity="center_vertical"
+              android:id="@+id/list_item"
+              android:focusable="false"
+			  android:clickable="false">
+	</TextView>
+
+	<TextView 
+              android:layout_width="fill_parent"
+              android:layout_height="15dp"
+              android:textSize="10sp"
+              android:textColor="@color/list_sub_item_bg"
+              android:gravity="center_vertical"
+              android:id="@+id/list_sub_item"
+              android:layout_below="@id/list_item"
+              android:focusable="false"
+			  android:clickable="false">
+	</TextView>
+
+	<TextView 
+              android:layout_width="fill_parent"
+              android:layout_height="10dp"
+              android:textSize="8sp"
+              android:textColor="@color/list_sub_item_two_bg"
+              android:gravity="center_vertical"
+              android:id="@+id/list_sub_item_two"
+              android:layout_below="@id/list_sub_item"
+              android:focusable="false"
+			  android:clickable="false">
+              
+	</TextView>
+</RelativeLayout>
